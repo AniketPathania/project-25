@@ -12,7 +12,7 @@ class Ball{
         }
         this.body = Bodies.circle(x,y,radius,options);
         World.add(world,this.body);
-        this.image = loadImage("sprites/paper.png")
+        this.image = loadImage("paper.png");
     }
   display(){
       var pos = this.body.position;
